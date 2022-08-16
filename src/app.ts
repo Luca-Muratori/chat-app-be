@@ -5,6 +5,7 @@ import shared from "./shared";
 import userRouter from "./users";
 
 const app = express();
+console.log('hello')
 
 app.use(cors());
 app.use(express.json());
